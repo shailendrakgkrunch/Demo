@@ -1,0 +1,8 @@
+<div class="centered-content">
+    <div class="modal-box fade-group">
+        <h1 class="title">Create a new List</h1>
+        <input #listInput type="text" class="form-control has-background-light" placeholder="Enter list name">
+        <button class="btn white-text" routerLink="/">Cancel</button>
+        <button class="btn btn-primary" (click)="onAddList(listInput.value)">Add</button>
+    </div>
+</div>
